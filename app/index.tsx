@@ -1,3 +1,4 @@
+import { supabase } from "@/service/supabase";
 import { router } from "expo-router";
 import React, { useEffect } from "react";
 import { ActivityIndicator, Image, StyleSheet, Text, View } from "react-native";
@@ -6,10 +7,20 @@ import { ActivityIndicator, Image, StyleSheet, Text, View } from "react-native";
 const runing = require("../assets/images/runing.png");
 export default function Index() {
   useEffect(() => {
-    const timer = setTimeout(() => {
-      router.replace("/run");
-    }, 5000);
-    return () => clearTimeout(timer);
+    const checkSession = async () => {
+      const { data: { session } } = await supabase.auth.getSession();
+
+      // Wait for 2 seconds to show splash
+      setTimeout(() => {
+        if (session) {
+          router.replace("/run");
+        } else {
+          router.replace("/login");
+        }
+      }, 2000);
+    };
+
+    checkSession();
   }, []);
   return (
     <View style={styles.container}>
