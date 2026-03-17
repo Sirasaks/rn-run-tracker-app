@@ -1,50 +1,56 @@
-# Welcome to your Expo app 👋
+# RN Run Tracker App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![App screenshot 1](https://img1.pic.in.th/images/6129e9e202c4bd613.jpg)
 
-## Get started
+## 📱 สรุปโปรเจกต์
+แอปนี้เป็นแอปติดตามการวิ่ง built ด้วย Expo + React Native (TypeScript) โดยมีเส้นทางหลักในโฟลเดอร์ `app/` และ UI components ใน `components/`.
 
-1. Install dependencies
+## ⚙️ ฟีเจอร์หลัก
+- บันทึก run ใหม่
+- ดูสรุป run ที่บันทึกไว้
+- เข้าสู่ระบบผู้ใช้
+- ใช้งานมือถือทั้ง iOS/Android ด้วย Expo Go
+
+## 🚀 เริ่มใช้งาน
+1. ติดตั้ง dependencies
 
    ```bash
    npm install
    ```
 
-2. Start the app
+2. เริ่ม Expo
 
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+3. สแกน QR code ด้วย Expo Go หรือรันใน emulator
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🔧 โครงสร้างโฟลเดอร์หลัก
+- `app/` — หน้า route ของแอป
+- `components/` — UI และคอมโพเนนต์ reusable
+- `service/` — supabase API
+- `constants/` — ธีมและค่าคงที่
+- `types/` — TypeScript types
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 📷 ภาพตัวอย่างแอป
 
-## Get a fresh project
+![App screenshot 2](https://img2.pic.in.th/594e841f96fa89d0e.jpg)
 
-When you're ready, run:
+![App screenshot 3](https://img1.pic.in.th/images/4a0063ed7c7e7ed13.jpg)
 
-```bash
-npm run reset-project
-```
+![App screenshot 4](https://img2.pic.in.th/3f9968246f9e09ca0.jpg)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+![App screenshot 5](https://img1.pic.in.th/images/230c4723f769cfeec.jpg)
 
-## Learn more
+![App screenshot 6](https://img2.pic.in.th/1c69cb3c478185d4d.jpg)
 
-To learn more about developing your project with Expo, look at the following resources:
+## 🧭 คำแนะนำเพิ่มเติม
+- แก้ไขหน้าใน `app/` เพื่อปรับฟังก์ชันตามความต้องการ
+- เชื่อมต่อ Supabase ใน `service/supabase.ts`
+- ปรับธีมสีใน `constants/theme.ts`
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 📚 แหล่งอ้างอิง
+- [Expo docs](https://docs.expo.dev)
+- [React Native docs](https://reactnative.dev)
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
