@@ -35,15 +35,18 @@
 
 ## 📷 ภาพตัวอย่างแอป
 
-![App screenshot 2](https://img2.pic.in.th/594e841f96fa89d0e.jpg)
-
-![App screenshot 3](https://img1.pic.in.th/images/4a0063ed7c7e7ed13.jpg)
-
-![App screenshot 4](https://img2.pic.in.th/3f9968246f9e09ca0.jpg)
-
-![App screenshot 5](https://img1.pic.in.th/images/230c4723f769cfeec.jpg)
-
-![App screenshot 6](https://img2.pic.in.th/1c69cb3c478185d4d.jpg)
+<table>
+  <tr>
+    <td><img src="https://img1.pic.in.th/images/6129e9e202c4bd613.jpg" width="250" alt="App screenshot 1"/></td>
+    <td><img src="https://img2.pic.in.th/594e841f96fa89d0e.jpg" width="250" alt="App screenshot 2"/></td>
+    <td><img src="https://img1.pic.in.th/images/4a0063ed7c7e7ed13.jpg" width="250" alt="App screenshot 3"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://img2.pic.in.th/3f9968246f9e09ca0.jpg" width="250" alt="App screenshot 4"/></td>
+    <td><img src="https://img1.pic.in.th/images/230c4723f769cfeec.jpg" width="250" alt="App screenshot 5"/></td>
+    <td><img src="https://img2.pic.in.th/1c69cb3c478185d4d.jpg" width="250" alt="App screenshot 6"/></td>
+  </tr>
+</table>
 
 ## 🧭 คำแนะนำเพิ่มเติม
 - แก้ไขหน้าใน `app/` เพื่อปรับฟังก์ชันตามความต้องการ
