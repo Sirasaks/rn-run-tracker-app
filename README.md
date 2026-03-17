@@ -1,7 +1,5 @@
 # RN Run Tracker App
 
-![App screenshot 1](https://img1.pic.in.th/images/6129e9e202c4bd613.jpg)
-
 ## 📱 สรุปโปรเจกต์
 แอปนี้เป็นแอปติดตามการวิ่ง built ด้วย Expo + React Native (TypeScript) โดยมีเส้นทางหลักในโฟลเดอร์ `app/` และ UI components ใน `components/`.
 
